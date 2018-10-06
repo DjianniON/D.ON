@@ -1,0 +1,306 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Tajawal");
+/* line 5, ../../sass/style.scss */
+html, body {
+  font-size: 62.5%;
+  font-family: 'Montserrat';
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1, ../../sass/_index.scss */
+.indnavbar {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+@media screen and (min-width: 1024px) {
+  /* line 1, ../../sass/_index.scss */
+  .indnavbar {
+    bottom: initial;
+    display: block;
+    right: 0;
+    height: 100vh;
+    width: 25%;
+    overflow: hidden;
+  }
+}
+/* line 15, ../../sass/_index.scss */
+.indnavbar ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  text-align: center;
+  height: 40vh;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  /* line 15, ../../sass/_index.scss */
+  .indnavbar ul {
+    text-align: right;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: initial;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+/* line 31, ../../sass/_index.scss */
+.indnavbar ul li {
+  display: block;
+}
+@media screen and (min-width: 1024px) {
+  /* line 34, ../../sass/_index.scss */
+  .indnavbar ul li::after {
+    content: "______________________";
+    color: white;
+  }
+}
+/* line 39, ../../sass/_index.scss */
+.indnavbar ul li a {
+  display: block;
+  font-size: 3.5em;
+}
+@media screen and (min-width: 1024px) {
+  /* line 39, ../../sass/_index.scss */
+  .indnavbar ul li a {
+    text-decoration: none;
+    font-size: 6em;
+  }
+}
+
+/* line 52, ../../sass/_index.scss */
+.master-zone {
+  height: 100%;
+  color: white;
+  position: absolute;
+  display: flex;
+}
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+  /* line 52, ../../sass/_index.scss */
+  .master-zone {
+    height: 75%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 52, ../../sass/_index.scss */
+  .master-zone {
+    align-items: center;
+  }
+}
+/* line 64, ../../sass/_index.scss */
+.master-zone div {
+  margin: auto;
+  margin-top: 42.5%;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  /* line 64, ../../sass/_index.scss */
+  .master-zone div {
+    margin: initial;
+    max-width: 70%;
+    margin-left: 2%;
+    text-align: initial;
+  }
+}
+@media screen and (max-width: 1023px) and (orientation: landscape) {
+  /* line 64, ../../sass/_index.scss */
+  .master-zone div {
+    margin: auto;
+  }
+}
+/* line 77, ../../sass/_index.scss */
+.master-zone div h1 {
+  font-size: 6em;
+}
+@media screen and (min-width: 1024px) {
+  /* line 77, ../../sass/_index.scss */
+  .master-zone div h1 {
+    font-size: 13.5em;
+  }
+}
+
+/* line 86, ../../sass/_index.scss */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #5d19b6;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  overflow: hidden;
+}
+
+/* line 1, ../../sass/_pages.scss */
+.header {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background: white;
+  width: 100%;
+  height: 8%;
+  border-bottom: 2px green;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+/* line 13, ../../sass/_pages.scss */
+.header .headTitle {
+  font-size: 5.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* line 20, ../../sass/_pages.scss */
+.sec-zone {
+  width: 100%;
+  background: #f1f1f1;
+  position: absolute;
+  padding-top: 10%;
+  min-height: 100%;
+  font-size: 2em;
+}
+/* line 27, ../../sass/_pages.scss */
+.sec-zone h3 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+/* line 32, ../../sass/_pages.scss */
+.sec-zone .container {
+  margin-bottom: 10%;
+}
+/* line 34, ../../sass/_pages.scss */
+.sec-zone .container .card {
+  margin-bottom: 32px;
+}
+/* line 36, ../../sass/_pages.scss */
+.sec-zone .container .card h5 {
+  font-size: 2em;
+  font-weight: bold;
+}
+/* line 42, ../../sass/_pages.scss */
+.sec-zone .aboutMe {
+  background: white;
+  margin-top: 5%;
+}
+@media screen and (min-width: 1024px) {
+  /* line 42, ../../sass/_pages.scss */
+  .sec-zone .aboutMe {
+    font-size: 1.50em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 48, ../../sass/_pages.scss */
+  .sec-zone .aboutMe .img-fluid {
+    display: none;
+  }
+}
+/* line 53, ../../sass/_pages.scss */
+.sec-zone .aboutMe .row {
+  justify-items: center;
+  align-items: center;
+}
+/* line 58, ../../sass/_pages.scss */
+.sec-zone .aboutMe .aboutText ul {
+  list-style: none;
+}
+/* line 60, ../../sass/_pages.scss */
+.sec-zone .aboutMe .aboutText ul li {
+  display: block;
+  font-size: 1.25em;
+}
+/* line 63, ../../sass/_pages.scss */
+.sec-zone .aboutMe .aboutText ul li .aboutSpan {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 73, ../../sass/_pages.scss */
+  .deskMenu {
+    display: none;
+  }
+}
+
+/* line 79, ../../sass/_pages.scss */
+.spmenu {
+  position: fixed;
+}
+/* line 81, ../../sass/_pages.scss */
+.spmenu a {
+  color: #fff;
+  font-weight: 300;
+}
+
+/* line 87, ../../sass/_pages.scss */
+#showRight {
+  cursor: pointer;
+}
+
+/* line 91, ../../sass/_pages.scss */
+.navbar {
+  font-size: 2em;
+}
+@media screen and (min-width: 1024px) {
+  /* line 91, ../../sass/_pages.scss */
+  .navbar {
+    display: none;
+  }
+}
+
+/* line 98, ../../sass/_pages.scss */
+.spmenu-vertical {
+  width: 20%;
+  height: 100%;
+  top: 0;
+  background: #520936;
+}
+/* line 103, ../../sass/_pages.scss */
+.spmenu-vertical a:hover {
+  color: #f1f1f1;
+}
+
+/* line 108, ../../sass/_pages.scss */
+.spmenu-right {
+  right: -20%;
+}
+
+/* line 111, ../../sass/_pages.scss */
+.spmenu-right.spmenu-open {
+  right: 0px;
+}
+
+/* Push classes applied to the body */
+/* line 116, ../../sass/_pages.scss */
+.spmenu-push {
+  overflow-x: hidden;
+  position: relative;
+  left: 0;
+}
+
+/* line 122, ../../sass/_pages.scss */
+.spmenu-push-toright {
+  left: 20%;
+}
+
+/* line 126, ../../sass/_pages.scss */
+.spmenu-push-toleft {
+  left: -20%;
+}
+
+/* Transitions */
+/* line 132, ../../sass/_pages.scss */
+.spmenu,
+.spmenu-push {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* Example media queries */

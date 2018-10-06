@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+<body class="spmenu-push animated fadeIn">
+<main>
+    <header class="deskMenu">
+        <div class="header">
+            <h2><a href="{{ path('index') }}">Back to home</a></h2>
+            <h1 class="headTitle">Mes travaux</h1>
+            <h2 id="showRight">Menu</h2>
+        </div>
+        <nav class="indnavbar spmenu spmenu-vertical spmenu-right" id="spmenu">
+            <ul class="animated fadeIn">
+                <li><a href="{{ path('aboutme') }}">About me</a></li>
+                <li><a href="{{ path('myWorks') }}">My Works</a></li>
+                <li><a href="{{ path('skillsCV') }}">Skills and CV</a></li>
+                <li><a href="{{ path('contact') }}">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="{{ path('index') }}">Back to Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="{{ path('aboutme') }}">About me</a>
+                <a class="nav-item nav-link" href="{{ path('myWorks') }}">My Works</a>
+                <a class="nav-item nav-link" href="{{ path('skillsCV') }}">Skills and CV</a>
+                <a class="nav-item nav-link" href="{{ path('contact') }}">Contact me</a>
+            </div>
+        </div>
+    </nav>
+    {% block pageContent %}
+    {% endblock %}
+</main>
+{% endblock %}
+{% block javascripts %}
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/classie.js"></script>
+    <script src="assets/js/script.js"></script>
+{% endblock %}
