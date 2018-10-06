@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bcf2d83-58d6-4d71-b2cf-7ec7480b7eb3" name="Default Changelist" comment="Redo" />
+    <list default="true" id="1bcf2d83-58d6-4d71-b2cf-7ec7480b7eb3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +86,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="2" />
           <entry key="php" value="121" />
           <entry key="twig" value="373" />
         </counts>
@@ -91,11 +94,13 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PHP" value="121" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Twig" value="373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="php" value="2" />
           <entry key="twig" value="5" />
         </counts>
@@ -103,6 +108,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PHP" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="5" />
         </counts>
       </usages-collector>
@@ -110,11 +116,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -183,6 +198,7 @@
         <option value="$PROJECT_DIR$/templates/works.html.twig" />
         <option value="$PROJECT_DIR$/templates/skills.html.twig" />
         <option value="$PROJECT_DIR$/templates/contact.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -403,12 +419,20 @@
       <workItem from="1538139600067" duration="648000" />
       <workItem from="1538499894222" duration="55000" />
       <workItem from="1538818583808" duration="4684000" />
-      <workItem from="1538823998688" duration="247000" />
+      <workItem from="1538823998688" duration="508000" />
     </task>
+    <task id="LOCAL-00001" summary="Redo">
+      <created>1538824484497</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538824484497</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16302000" />
+    <option name="totallyTimeSpent" value="16563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -421,8 +445,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="34" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28865978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28865978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -435,7 +460,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" sideWeight="0.4936034" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4838488" visible="true" weight="0.32897863" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4838488" visible="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5161512" side_tool="true" weight="0.32897863" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32939914" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -549,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#266#273#0#Twig" expanded="true" />
-            <element signature="e#340#347#0#Twig" expanded="true" />
-            <element signature="e#414#422#0#Twig" expanded="true" />
-            <element signature="e#494#501#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,9 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#12#32#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,9 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding>
-            <element signature="e#12#32#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,9 +609,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#12#32#0#Twig" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
